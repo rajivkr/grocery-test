@@ -6,12 +6,12 @@ import ItemList from '../../data/items.json';
 const DefaultItems = () => {
   return (
     <ul>
-      {CartList.items.map((cartListItem) => {
+      {CartList.items.map(cartListItem => {
         const { id, quantity } = cartListItem;
         const itemDetails = ItemList[id];
         return (
           <li>
-            {itemDetails.name} is
+            {itemDetails.name} -
             {` ${quantity} ${itemDetails.units}${quantity > 1 ? 's' : ''}`}
           </li>
         );
@@ -23,7 +23,7 @@ const DefaultItems = () => {
 class GroceryContainer extends Component {
   render() {
     return (
-      <div className="grocery-container">
+      <div className='grocery-container'>
         <DefaultItems />
       </div>
     );
