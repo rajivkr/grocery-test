@@ -32,4 +32,7 @@
     top: 100%;
     left: 0;
   }
+  .App {
+    height: 100vw;
+  }
 }
