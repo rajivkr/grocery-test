@@ -23,7 +23,7 @@
 }
 
 @media screen and (max-width: 1170px) and (orientation: portrait) {
-  html {
+  body {
     transform: rotate(-90deg);
     height: 100vw;
   }
