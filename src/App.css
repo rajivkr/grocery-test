@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 1170px) and (orientation: portrait) {
+/* @media screen and (max-width: 1170px) and (orientation: portrait) {
   html {
     transform: rotate(-90deg);
     transform-origin: left top;
@@ -32,4 +32,4 @@
     top: 100%;
     left: 0;
   }
-}
+} */
