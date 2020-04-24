@@ -1,6 +1,5 @@
 .App {
   background-color: #282c34;
-  height: 100vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -25,6 +24,12 @@
 @media screen and (max-width: 1170px) and (orientation: portrait) {
   body {
     transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
     height: 100vw;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
   }
 }
